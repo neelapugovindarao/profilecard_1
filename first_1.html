@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Profile Card</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background: #555;
+      color: white;
+      font-size: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .role {
+      color: gray;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      background: #333;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="avatar">A</div>
+
+    <div class="name">Alex Rivera</div>
+    <div class="role">Web Developer</div>
+
+    <div class="bio">
+      I build simple and clean websites.
+    </div>
+
+    <button class="btn">Contact Me</button>
+  </div>
+
+</body>
+</html>
