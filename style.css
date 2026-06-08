@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e12;
+    font-family: Merriweather;
+}
+
+.card{
+    width: 360px;
+    background-color: #16161f;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.status-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-dot{
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-text{
+    font-size: 10px;
+    color: green;
+}
+
+.avatar-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 18px;
+    color: white;
+}
+
+.role{
+    font-size: 14px;
+    color: gray;
+}
+
+.tags{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tag{
+    border: 1px solid rgb(97, 106, 97);
+    padding: 3px 8px;
+    color :rgb(164, 227, 227);
+    font-size: 11px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 10px;
+}
